@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container">
         <h3><?php $this->options->description() ?></h3>
-        <p>©️ <?php echo $this->options->startYear?$this->options->startYear.' - ':''; ?> <?php echo  date("Y")?> <?php $this->options->title(); ?>. Designed by <a href="https://www.bawge.com/" target="_blank">Meayair</a>
+        <p>Copyright © <?php echo $this->options->startYear?$this->options->startYear.' - ':''; ?> <?php echo  date("Y")?> <?php $this->options->title(); ?> All Rights Reserved.
         </p>
         <?php if($this->options->beianNum):?>
         <p><a class="beian" href="https://beian.miit.gov.cn/" rel="external nofollow" target="_blank" title="备案号"><i class="bi bi-shield-check me-1"></i><?php $this->options->beianNum()?></a></p>
