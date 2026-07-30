@@ -205,7 +205,10 @@ img {
 
 /*head*/
 .headbox {
-    background: var(--bs-main);
+    background-image: url('../img/windows.png');
+    background-repeat: repeat-x;
+    background-size: auto 30px;
+    background-color: var(--bs-main);
     position: sticky;
     top: 0px;
     z-index: 3;
