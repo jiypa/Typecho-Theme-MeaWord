@@ -18,6 +18,7 @@
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
 <meta name='robots' content='max-image-preview:large' />
+<link rel="shortcut icon" href="<?php $this->options->logoUrl(); ?>" type="image/x-icon">
 <link rel='stylesheet' id='bootstrap-css' href='<?php $this->options->themeUrl('assets/css/bootstrap.min.css'); ?>' type='text/css' media='all' />
 <link rel='stylesheet' id='bifont-css' href='<?php $this->options->themeUrl('assets/css/bootstrap-icons.css'); ?>' type='text/css' media='all' />
 <link rel='stylesheet' id='stylecss-css' href='<?php $this->options->themeUrl('assets/css/style.css?ver=2.0.1.2'); ?>' type='text/css' media='all' />
@@ -34,7 +35,7 @@
 		<div class="head_top">
 			<a class="logo" href="<?php $this->options->siteUrl(); ?>" title="<?php $this->options->title(); ?>">
                 <?php if($this->options->logoUrl && $this->options->logoDisplay != 1):?>
-				<img src="<?php $this->options->logoUrl(); ?>" alt="">
+				<img src="<?php $this->options->logoUrl(); ?>" alt="logo">
                 <?php endif;?>
                 <?php if($this->options->logoDisplay != 2):?>
 				<b><?php $this->options->title(); ?></b>
