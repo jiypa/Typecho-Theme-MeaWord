@@ -113,10 +113,6 @@ img {
     background: #212121;
 }
 
-.dark .no-more {
-    color: #191919;
-}
-
 .dark .post_list .post_loop_more a {
     background: #2a2a2a;
     border: 1px solid #2a2a2a;
@@ -665,7 +661,7 @@ img {
 
 .post_list .post_loop_info {
     margin-bottom: 30px;
-    color: #888888;
+    color: #888;
     position: relative;
 }
 
@@ -676,7 +672,7 @@ img {
 }
 
 .post_list .post_loop_info span a {
-    color: #888888;
+    color: #888;
     padding-bottom: 3px;
 }
 
@@ -700,6 +696,10 @@ img {
     font-weight: 300;
     line-height: 2;
     color: #4d4d4d;
+}
+
+.dark .post_list p {
+    color: #b2b2b2;
 }
 
 .post_list .post_loop_more {
@@ -932,7 +932,7 @@ img {
 .no-more {
     opacity: 0;
     text-align: center;
-    color: #eaeaea;
+    color: rgba(200, 200, 200, 0.5);
     font-weight: 300;
     font-size: 16px;
     letter-spacing: 8px;
@@ -956,6 +956,10 @@ img {
     text-transform: uppercase;
     font-weight: bold;
     min-height: 30px;
+}
+
+.dark footer h3 {
+    color: #c7c7c7; /* 取自于 #383838 的相反色，取色工具：https://colorinverter.imageonline.co/cn/ */
 }
 
 .footer p {
